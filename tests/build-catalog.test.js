@@ -18,3 +18,11 @@ test('accessibility/compliance skill is no longer mis-categorized as security', 
   // Pinned to the correct category: previously mis-tagged 'security' via the 'compliance' keyword.
   assert.strictEqual(skill.category, 'general');
 });
+
+test('computeArtifacts emits POSIX-style paths for catalog entries', () => {
+  const a = computeArtifacts();
+  assert.ok(
+    a.catalog.skills.every(skill => !skill.path.includes('\\')),
+    'catalog paths must use forward slashes for cross-platform stable artifacts'
+  );
+});

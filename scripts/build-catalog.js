@@ -258,6 +258,10 @@ function truncate(value, limit) {
   return `${value.slice(0, limit - 3)}...`;
 }
 
+function normalizePathSlashes(filePath) {
+  return filePath.replace(/\\/g, '/');
+}
+
 function renderCatalogMarkdown(catalog) {
   const lines = [];
   lines.push('# Skill Catalog');
@@ -313,7 +317,7 @@ function computeArtifacts() {
       category,
       tags,
       triggers,
-      path: path.relative(ROOT, skill.path),
+      path: normalizePathSlashes(path.relative(ROOT, skill.path)),
     });
   }
 
