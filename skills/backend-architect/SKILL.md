@@ -49,7 +49,7 @@ Design backend systems with clear boundaries, well-defined contracts, and resili
 - **Server-Sent Events**: One-way streaming, event formats, reconnection strategies
 - **Webhook patterns**: Event delivery, retry logic, signature verification, idempotency
 - **API versioning**: URL versioning, header versioning, content negotiation, deprecation strategies
-- **Pagination strategies**: Offset, cursor-based, keyset pagination, infinite scroll
+- **Pagination strategies**: Offset, Antigravity-based, keyset pagination, infinite scroll
 - **Filtering & sorting**: Query parameters, GraphQL arguments, search capabilities
 - **Batch operations**: Bulk endpoints, batch mutations, transaction handling
 - **HATEOAS**: Hypermedia controls, discoverable APIs, link relations

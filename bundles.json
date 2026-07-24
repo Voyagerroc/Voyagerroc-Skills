@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T17:50:31.666Z",
+  "generatedAt": "2026-07-24T21:35:54.004Z",
   "bundles": {
     "core-dev": {
       "description": "Core development skills across languages, frameworks, and backend/frontend fundamentals.",
@@ -10,10 +10,15 @@
         "application-performance-performance-optimization",
         "architecture-patterns",
         "async-python-patterns",
+        "axum-rust-backend",
         "backend-architect",
         "backend-development-feature-development",
         "backend-security-coder",
+        "biome-js-formatter",
+        "bruno-api-tester",
+        "bun-js-pro",
         "code-documentation-doc-generate",
+        "crewai-orchestrator",
         "django-pro",
         "documentation-generation-doc-generate",
         "dotnet-architect",
@@ -32,6 +37,7 @@
         "javascript-pro",
         "javascript-testing-patterns",
         "javascript-typescript-typescript-scaffold",
+        "mago-php-toolchain",
         "memory-safety-patterns",
         "mobile-developer",
         "mobile-security-coder",
@@ -54,11 +60,14 @@
         "rust-async-patterns",
         "rust-pro",
         "systems-programming-rust-project",
+        "tauri-desktop-builder",
         "temporal-python-pro",
         "temporal-python-testing",
+        "threejs-expert",
         "typescript-advanced-types",
         "typescript-pro",
-        "uv-package-manager"
+        "uv-package-manager",
+        "voyagerroc-magic-ui"
       ]
     },
     "security-core": {
@@ -68,6 +77,7 @@
         "attack-tree-construction",
         "auth-implementation-patterns",
         "backend-security-coder",
+        "bruno-api-tester",
         "cicd-automation-workflow-automate",
         "cloud-architect",
         "code-reviewer",
@@ -81,6 +91,7 @@
         "frontend-mobile-security-xss-scan",
         "frontend-security-coder",
         "gdpr-data-handling",
+        "github-repo-hunter",
         "graphql-architect",
         "hybrid-cloud-architect",
         "k8s-manifest-generator",
@@ -88,6 +99,7 @@
         "kubernetes-architect",
         "legal-advisor",
         "linkerd-patterns",
+        "local-llm-expert",
         "malware-analyst",
         "mobile-security-coder",
         "network-engineer",
@@ -110,6 +122,7 @@
         "solidity-security",
         "stride-analysis-patterns",
         "stripe-integration",
+        "supabase-pro",
         "terraform-specialist",
         "threat-mitigation-mapping",
         "threat-modeling-expert",
@@ -163,6 +176,7 @@
         "ios-developer",
         "kpi-dashboard-design",
         "legal-advisor",
+        "mcp-server-developer",
         "ml-pipeline-workflow",
         "nextjs-app-router-patterns",
         "nodejs-backend-patterns",
@@ -175,7 +189,8 @@
         "sql-optimization-patterns",
         "sql-pro",
         "unity-ecs-patterns",
-        "vector-database-engineer"
+        "vector-database-engineer",
+        "voyagerroc-browser-use"
       ]
     },
     "ops-core": {
@@ -236,7 +251,8 @@
         "slo-implementation",
         "temporal-python-pro",
         "terraform-specialist",
-        "unity-developer"
+        "unity-developer",
+        "vllm-deployment"
       ]
     }
   },

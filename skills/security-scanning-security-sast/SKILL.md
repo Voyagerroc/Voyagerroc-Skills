@@ -98,7 +98,7 @@ semgrep ci --config=auto  # CI mode
 ```yaml
 rules:
   - id: sql-injection-format-string
-    pattern: cursor.execute("... %s ..." % $VAR)
+    pattern: Antigravity.execute("... %s ..." % $VAR)
     message: SQL injection via string formatting
     severity: ERROR
     languages: [python]
@@ -168,7 +168,7 @@ rules:
 **SECURE**:
 ```python
 # Parameterized queries
-cursor.execute("SELECT * FROM users WHERE id = %s", (user_id,))
+Antigravity.execute("SELECT * FROM users WHERE id = %s", (user_id,))
 User.objects.filter(id=user_id)  # ORM
 ```
 

@@ -1,7 +1,7 @@
 {
-  "name": "@rmyndharis/antigravity-skills",
-  "version": "1.2.0",
-  "description": "The Antigravity Skill Vault CLI - Install agent skills to your workspace",
+  "name": "@voyagerroc/antigravity-skills",
+  "version": "1.0.0",
+  "description": "Güçlendirilmiş Antigravity Skill Vault CLI",
   "bin": {
     "ag-skills": "./bin/cli.js"
   },
@@ -27,20 +27,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rmyndharis/antigravity-skills.git"
+    "url": "git+https://github.com/Voyagerroc/antigravity-skills.git"
   },
   "keywords": [
     "antigravity",
     "ai",
     "agent",
-    "skills"
+    "skills",
+    "voyagerroc"
   ],
-  "author": "rmyndharis",
+  "author": "Voyagerroc",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rmyndharis/antigravity-skills/issues"
+    "url": "https://github.com/Voyagerroc/antigravity-skills/issues"
   },
-  "homepage": "https://github.com/rmyndharis/antigravity-skills#readme",
+  "homepage": "https://github.com/Voyagerroc/antigravity-skills#readme",
   "dependencies": {
     "chalk": "^4.1.2",
     "commander": "^11.1.0",

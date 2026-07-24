@@ -1,5 +1,7 @@
 # Antigravity Skill Vault
 
+> 💡 **Açık Kaynak Atıf / Attribution:** Bu proje, açık kaynak topluluğuna katkı sağlamak amacıyla [Yudhi Armyndharis'in antigravity-skills (rmyndharis/antigravity-skills)](https://github.com/rmyndharis/antigravity-skills) projesi temel alınarak yeniden düzenlenmiş ve güçlendirilmiştir. Orijinal proje de [Claude Code Agents](https://github.com/wshobson/agents) ekosisteminden türetilmiştir. MIT lisansı kurallarına uygun olarak geliştirilmektedir.
+
 A curated collection of **Agent Skills** for **Google Antigravity**, ported from the [Claude Code Agents](https://github.com/wshobson/agents) repository.
 
 This vault transforms the extensive Claude Code ecosystem into **Antigravity Skills**, providing your agent with repeatable workflows, domain expertise, and specialized tools.
@@ -96,33 +98,33 @@ You can easily install skills directly from the repository without cloning it ma
 **1. Search skills (recommended first):**
 
 ```bash
-npx @rmyndharis/antigravity-skills search <query>
+npx @voyagerroc/antigravity-skills search <query>
 # Example:
-npx @rmyndharis/antigravity-skills search kubernetes
+npx @voyagerroc/antigravity-skills search kubernetes
 ```
 
 **2. List available skills:**
 
 ```bash
-npx @rmyndharis/antigravity-skills list
+npx @voyagerroc/antigravity-skills list
 ```
 
 **3. Install a specific skill to your current project:**
 
 ```bash
-npx @rmyndharis/antigravity-skills install <skill-name>
+npx @voyagerroc/antigravity-skills install <skill-name>
 # Example:
-npx @rmyndharis/antigravity-skills install bash-pro
+npx @voyagerroc/antigravity-skills install bash-pro
 ```
 
 **4. Install by tag or bundle (targeted sets):**
 
 ```bash
 # By tag
-npx @rmyndharis/antigravity-skills install --tag kubernetes
+npx @voyagerroc/antigravity-skills install --tag kubernetes
 
 # By bundle
-npx @rmyndharis/antigravity-skills install --bundle core-dev
+npx @voyagerroc/antigravity-skills install --bundle core-dev
 ```
 
 Available bundles: `core-dev`, `security-core`, `k8s-core`, `data-core`, `ops-core`.
@@ -130,49 +132,49 @@ Available bundles: `core-dev`, `security-core`, `k8s-core`, `data-core`, `ops-co
 **5. Install a skill globally:**
 
 ```bash
-npx @rmyndharis/antigravity-skills install <skill-name> --global
+npx @voyagerroc/antigravity-skills install <skill-name> --global
 # Example:
-npx @rmyndharis/antigravity-skills install bash-pro --global
+npx @voyagerroc/antigravity-skills install bash-pro --global
 ```
 
 **6. Check installed skills:**
 
 ```bash
 # List local specific skills
-npx @rmyndharis/antigravity-skills installed
+npx @voyagerroc/antigravity-skills installed
 
 # List globally installed skills
-npx @rmyndharis/antigravity-skills installed --global
+npx @voyagerroc/antigravity-skills installed --global
 ```
 
 **7. Update installed skills:**
 
 ```bash
 # Update a specific skill
-npx @rmyndharis/antigravity-skills update <skill-name>
+npx @voyagerroc/antigravity-skills update <skill-name>
 
 # Update ALL installed skills
-npx @rmyndharis/antigravity-skills update
+npx @voyagerroc/antigravity-skills update
 
 # Update global skills
-npx @rmyndharis/antigravity-skills update --global
+npx @voyagerroc/antigravity-skills update --global
 ```
 
 **8. Doctor / stats:**
 
 ```bash
-npx @rmyndharis/antigravity-skills doctor
-npx @rmyndharis/antigravity-skills stats
+npx @voyagerroc/antigravity-skills doctor
+npx @voyagerroc/antigravity-skills stats
 ```
 
 **9. Install ALL skills (advanced, not recommended):**
 
 ```bash
 # To your current workspace
-npx @rmyndharis/antigravity-skills install --all
+npx @voyagerroc/antigravity-skills install --all
 
 # Globally
-npx @rmyndharis/antigravity-skills install --all --global
+npx @voyagerroc/antigravity-skills install --all --global
 ```
 
 > **Note:** Installing all skills increases token usage and can trigger unrelated skills. Prefer targeted installs.
@@ -182,7 +184,7 @@ Aliases are supported via `aliases.json` (for long skill names).
 Example:
 
 ```bash
-npx @rmyndharis/antigravity-skills install full-stack-feature
+npx @voyagerroc/antigravity-skills install full-stack-feature
 ```
 
 ### Manual Installation
