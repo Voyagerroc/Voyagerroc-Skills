@@ -18,3 +18,11 @@ test('accessibility/compliance skill is no longer mis-categorized as security', 
   // Pinned to the correct category: previously mis-tagged 'security' via the 'compliance' keyword.
   assert.strictEqual(skill.category, 'general');
 });
+
+test('computeArtifacts emits POSIX-style catalog paths', () => {
+  const a = computeArtifacts();
+  for (const skill of a.catalog.skills) {
+    assert.ok(!skill.path.includes('\\'), `expected POSIX path, got: ${skill.path}`);
+    assert.ok(skill.path.startsWith('skills/'), `expected skill path prefix, got: ${skill.path}`);
+  }
+});
