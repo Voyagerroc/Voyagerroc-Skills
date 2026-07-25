@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T21:35:54.004Z",
+  "generatedAt": "2026-07-25T23:35:48.768Z",
   "bundles": {
     "core-dev": {
       "description": "Core development skills across languages, frameworks, and backend/frontend fundamentals.",
@@ -37,6 +37,7 @@
         "javascript-pro",
         "javascript-testing-patterns",
         "javascript-typescript-typescript-scaffold",
+        "local-environment-verification",
         "mago-php-toolchain",
         "memory-safety-patterns",
         "mobile-developer",

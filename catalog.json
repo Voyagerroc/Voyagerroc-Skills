@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-24T21:35:54.004Z",
-  "total": 333,
+  "generatedAt": "2026-07-25T23:35:48.768Z",
+  "total": 334,
   "skills": [
     {
       "id": "accessibility-compliance-accessibility-audit",
@@ -4592,6 +4592,32 @@
         "ai"
       ],
       "path": "skills\\llm-evaluation\\SKILL.md"
+    },
+    {
+      "id": "local-environment-verification",
+      "name": "local-environment-verification",
+      "description": "Verify if required local servers (frontend, backend) are running and start them if necessary before providing localhost links.",
+      "category": "development",
+      "tags": [
+        "local",
+        "environment",
+        "verification"
+      ],
+      "triggers": [
+        "local",
+        "environment",
+        "verification",
+        "verify",
+        "required",
+        "servers",
+        "frontend",
+        "backend",
+        "running",
+        "start",
+        "them",
+        "necessary"
+      ],
+      "path": "skills\\local-environment-verification\\SKILL.md"
     },
     {
       "id": "local-llm-expert",

@@ -1,8 +1,8 @@
 # Skill Catalog
 
-Generated at: 2026-07-24T21:35:54.004Z
+Generated at: 2026-07-25T23:35:48.768Z
 
-Total skills: 333
+Total skills: 334
 
 ## architecture (33)
 
@@ -119,7 +119,7 @@ Total skills: 333
 | `vector-index-tuning` | Optimize vector index performance for latency, recall, and memory. Use when tuning HNSW parameters, selecting quantization strategies, or scaling vector sear... | vector, index, tuning | vector, index, tuning, optimize, performance, latency, recall, memory, hnsw, parameters, selecting, quantization |
 | `voyagerroc-browser-use` | Emulate human web browsing. Integrate Browser Use (open-source) to autonomously test UIs, navigate pages, and scrape data via headless browsers, fully compat... | voyagerroc, browser, use | voyagerroc, browser, use, emulate, human, web, browsing, integrate, open, source, autonomously, test |
 
-## development (44)
+## development (45)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -141,6 +141,7 @@ Total skills: 333
 | `javascript-pro` | Master modern JavaScript with ES6+, async patterns, and Node.js APIs. Handles promises, event loops, and browser/Node compatibility. Use PROACTIVELY for Java... | javascript | javascript, pro, es6, async, node, js, apis, promises, event, loops, browser, compatibility |
 | `javascript-testing-patterns` | Implement comprehensive testing strategies using Jest, Vitest, and Testing Library for unit tests, integration tests, and end-to-end testing with mocking, fi... | javascript | javascript, testing, jest, vitest, library, unit, tests, integration, mocking, fixtures, test, driven |
 | `javascript-typescript-typescript-scaffold` | You are a TypeScript project architecture expert specializing in scaffolding production-ready Node.js and frontend applications. Generate complete project st... | javascript, typescript | javascript, typescript, scaffold, architecture, specializing, scaffolding, node, js, frontend, applications, generate, complete |
+| `local-environment-verification` | Verify if required local servers (frontend, backend) are running and start them if necessary before providing localhost links. | local, environment, verification | local, environment, verification, verify, required, servers, frontend, backend, running, start, them, necessary |
 | `mago-php-toolchain` | Modernize PHP development using Mago, the blazing-fast Rust-powered toolchain (Formatter, Linter, Analyzer) replacing legacy PHP tools. | mago, php, toolchain | mago, php, toolchain, modernize, development, blazing, fast, rust, powered, formatter, linter, analyzer |
 | `memory-safety-patterns` | Implement memory-safe programming with RAII, ownership, smart pointers, and resource management across Rust, C++, and C. Use when writing safe systems code, ... | memory, safety | memory, safety, safe, programming, raii, ownership, smart, pointers, resource, rust, writing, code |
 | `mobile-developer` | Develop React Native, Flutter, or native mobile apps with modern architecture patterns. Masters cross-platform development, native integrations, offline sync... | mobile | mobile, developer, develop, react, native, flutter, apps, architecture, masters, cross, platform, development |
