@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T23:39:48.129Z",
+  "generatedAt": "2026-07-25T23:50:25.685Z",
   "aliases": {
     "accessibility-compliance-audit": "accessibility-compliance-accessibility-audit",
     "agent-orchestration-improve": "agent-orchestration-improve-agent",
@@ -7,6 +7,7 @@
     "api-testing-mock": "api-testing-observability-api-mock",
     "application-performance-optimization": "application-performance-performance-optimization",
     "backend-development-feature": "backend-development-feature-development",
+    "browser-testing-devtools": "browser-testing-with-devtools",
     "c4-architecture": "c4-architecture-c4-architecture",
     "cicd-automation-automate": "cicd-automation-workflow-automate",
     "code-documentation-explain": "code-documentation-code-explain",
@@ -23,6 +24,7 @@
     "database-cloud-optimize": "database-cloud-optimization-cost-optimize",
     "database-migrations-observability": "database-migrations-migration-observability",
     "database-migrations-sql": "database-migrations-sql-migrations",
+    "debugging-and-recovery": "debugging-and-error-recovery",
     "debugging-toolkit-debug": "debugging-toolkit-smart-debug",
     "dependency-management-audit": "dependency-management-deps-audit",
     "deployment-validation-validate": "deployment-validation-config-validate",

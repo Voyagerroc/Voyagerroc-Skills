@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-25T23:39:48.129Z",
-  "total": 334,
+  "generatedAt": "2026-07-25T23:50:25.685Z",
+  "total": 358,
   "skills": [
     {
       "id": "accessibility-compliance-accessibility-audit",
@@ -228,6 +228,32 @@
         "coding"
       ],
       "path": "skills/antigravity-rules-architect/SKILL.md"
+    },
+    {
+      "id": "api-and-interface-design",
+      "name": "api-and-interface-design",
+      "description": "Guides stable API and interface design. Use when designing APIs, module boundaries, or any public interface. Use when creating REST or GraphQL endpoints, defining type contracts between modules, or establishing boundaries between frontend and backend.",
+      "category": "development",
+      "tags": [
+        "api",
+        "and",
+        "interface"
+      ],
+      "triggers": [
+        "api",
+        "and",
+        "interface",
+        "guides",
+        "stable",
+        "designing",
+        "apis",
+        "module",
+        "boundaries",
+        "any",
+        "public",
+        "creating"
+      ],
+      "path": "skills/api-and-interface-design/SKILL.md"
     },
     {
       "id": "api-design-principles",
@@ -847,6 +873,32 @@
       "path": "skills/blockchain-developer/SKILL.md"
     },
     {
+      "id": "browser-testing-with-devtools",
+      "name": "browser-testing-with-devtools",
+      "description": "Tests in real browsers via Chrome DevTools MCP. Use when building or debugging anything that runs in a browser. Use when you need to inspect the DOM, capture console errors, analyze network requests, profile performance, or verify visual output with real runtime data. Requires the chrome-devtools MCP server to be configured.",
+      "category": "infrastructure",
+      "tags": [
+        "browser",
+        "with",
+        "devtools"
+      ],
+      "triggers": [
+        "browser",
+        "with",
+        "devtools",
+        "testing",
+        "tests",
+        "real",
+        "browsers",
+        "via",
+        "chrome",
+        "mcp",
+        "building",
+        "debugging"
+      ],
+      "path": "skills/browser-testing-with-devtools/SKILL.md"
+    },
+    {
       "id": "bruno-api-tester",
       "name": "bruno-api-tester",
       "description": "Expert in building privacy-first API tests and collections using Bruno instead of Postman.",
@@ -1089,6 +1141,32 @@
         "up"
       ],
       "path": "skills/changelog-automation/SKILL.md"
+    },
+    {
+      "id": "ci-cd-and-automation",
+      "name": "ci-cd-and-automation",
+      "description": "Automates CI/CD pipeline setup. Use when setting up or modifying build and deployment pipelines. Use when you need to automate quality gates, configure test runners in CI, or establish deployment strategies.",
+      "category": "infrastructure",
+      "tags": [
+        "ci",
+        "cd",
+        "and"
+      ],
+      "triggers": [
+        "ci",
+        "cd",
+        "and",
+        "automation",
+        "automates",
+        "pipeline",
+        "setup",
+        "setting",
+        "up",
+        "modifying",
+        "deployment",
+        "pipelines"
+      ],
+      "path": "skills/ci-cd-and-automation/SKILL.md"
     },
     {
       "id": "cicd-automation-workflow-automate",
@@ -1341,6 +1419,32 @@
       "path": "skills/code-review-ai-ai-review/SKILL.md"
     },
     {
+      "id": "code-review-and-quality",
+      "name": "code-review-and-quality",
+      "description": "Conducts multi-axis code review. Use before merging any change. Use when reviewing code written by yourself, another agent, or a human. Use when you need to assess code quality across multiple dimensions before it enters the main branch.",
+      "category": "general",
+      "tags": [
+        "code",
+        "and",
+        "quality"
+      ],
+      "triggers": [
+        "code",
+        "and",
+        "quality",
+        "review",
+        "conducts",
+        "multi",
+        "axis",
+        "before",
+        "merging",
+        "any",
+        "change",
+        "reviewing"
+      ],
+      "path": "skills/code-review-and-quality/SKILL.md"
+    },
+    {
       "id": "code-review-excellence",
       "name": "code-review-excellence",
       "description": "Master effective code review practices to provide constructive feedback, catch bugs early, and foster knowledge sharing while maintaining team morale. Use when reviewing pull requests, establishing review standards, or mentoring developers.",
@@ -1388,6 +1492,31 @@
         "optimization"
       ],
       "path": "skills/code-reviewer/SKILL.md"
+    },
+    {
+      "id": "code-simplification",
+      "name": "code-simplification",
+      "description": "Simplifies code for clarity. Use when refactoring code for clarity without changing behavior. Use when code works but is harder to read, maintain, or extend than it should be. Use when reviewing code that has accumulated unnecessary complexity.",
+      "category": "general",
+      "tags": [
+        "code",
+        "simplification"
+      ],
+      "triggers": [
+        "code",
+        "simplification",
+        "simplifies",
+        "clarity",
+        "refactoring",
+        "without",
+        "changing",
+        "behavior",
+        "works",
+        "harder",
+        "read",
+        "maintain"
+      ],
+      "path": "skills/code-simplification/SKILL.md"
     },
     {
       "id": "codebase-cleanup-deps-audit",
@@ -1762,6 +1891,30 @@
         "between"
       ],
       "path": "skills/context-driven-development/SKILL.md"
+    },
+    {
+      "id": "context-engineering",
+      "name": "context-engineering",
+      "description": "Optimizes agent context setup. Use when starting a new session, when agent output quality degrades, when switching between tasks, or when you need to configure rules files and context for a project.",
+      "category": "general",
+      "tags": [
+        "engineering"
+      ],
+      "triggers": [
+        "engineering",
+        "context",
+        "optimizes",
+        "agent",
+        "setup",
+        "starting",
+        "new",
+        "session",
+        "output",
+        "quality",
+        "degrades",
+        "switching"
+      ],
+      "path": "skills/context-engineering/SKILL.md"
     },
     {
       "id": "context-management-context-restore",
@@ -2350,6 +2503,33 @@
       "path": "skills/debugger/SKILL.md"
     },
     {
+      "id": "debugging-and-error-recovery",
+      "name": "debugging-and-error-recovery",
+      "description": "Guides systematic root-cause debugging. Use when tests fail, builds break, behavior doesn't match expectations, or you encounter any unexpected error. Use when you need a systematic approach to finding and fixing the root cause rather than guessing.",
+      "category": "general",
+      "tags": [
+        "debugging",
+        "and",
+        "error",
+        "recovery"
+      ],
+      "triggers": [
+        "debugging",
+        "and",
+        "error",
+        "recovery",
+        "guides",
+        "systematic",
+        "root",
+        "cause",
+        "tests",
+        "fail",
+        "break",
+        "behavior"
+      ],
+      "path": "skills/debugging-and-error-recovery/SKILL.md"
+    },
+    {
       "id": "debugging-strategies",
       "name": "debugging-strategies",
       "description": "Master systematic debugging techniques, profiling tools, and root cause analysis to efficiently track down bugs across any codebase or technology stack. Use when investigating bugs, performance issues, or unexpected behavior.",
@@ -2545,6 +2725,32 @@
       "path": "skills/deployment-validation-config-validate/SKILL.md"
     },
     {
+      "id": "deprecation-and-migration",
+      "name": "deprecation-and-migration",
+      "description": "Manages deprecation and migration. Use when removing old systems, APIs, or features. Use when migrating users from one implementation to another. Use when deciding whether to maintain or sunset existing code.",
+      "category": "general",
+      "tags": [
+        "deprecation",
+        "and",
+        "migration"
+      ],
+      "triggers": [
+        "deprecation",
+        "and",
+        "migration",
+        "manages",
+        "removing",
+        "old",
+        "apis",
+        "features",
+        "migrating",
+        "users",
+        "one",
+        "another"
+      ],
+      "path": "skills/deprecation-and-migration/SKILL.md"
+    },
+    {
       "id": "devbox-nix-environments",
       "name": "devbox-nix-environments",
       "description": "Infrastructure expert focusing on reproducible, isolated development environments using Devbox (Nix-based) instead of Docker.",
@@ -2694,6 +2900,32 @@
       "path": "skills/docs-architect/SKILL.md"
     },
     {
+      "id": "documentation-and-adrs",
+      "name": "documentation-and-adrs",
+      "description": "Records decisions and documentation. Use when making architectural decisions, changing public APIs, shipping features, or when you need to record context that future engineers and agents will need to understand the codebase.",
+      "category": "general",
+      "tags": [
+        "documentation",
+        "and",
+        "adrs"
+      ],
+      "triggers": [
+        "documentation",
+        "and",
+        "adrs",
+        "records",
+        "decisions",
+        "making",
+        "architectural",
+        "changing",
+        "public",
+        "apis",
+        "shipping",
+        "features"
+      ],
+      "path": "skills/documentation-and-adrs/SKILL.md"
+    },
+    {
       "id": "documentation-generation-doc-generate",
       "name": "documentation-generation-doc-generate",
       "description": "You are a documentation expert specializing in creating comprehensive, maintainable documentation from code. Generate API docs, architecture diagrams, user guides, and technical references using AI-powered analysis and industry best practices.",
@@ -2768,6 +3000,31 @@
         "covers"
       ],
       "path": "skills/dotnet-backend-patterns/SKILL.md"
+    },
+    {
+      "id": "doubt-driven-development",
+      "name": "doubt-driven-development",
+      "description": "Subjects every non-trivial decision to a fresh-context adversarial review before it stands. Use when correctness matters more than speed, when working in unfamiliar code, when stakes are high (production, security-sensitive logic, irreversible operations), or any time a confident output would be cheaper to verify now than to debug later.",
+      "category": "security",
+      "tags": [
+        "doubt",
+        "driven"
+      ],
+      "triggers": [
+        "doubt",
+        "driven",
+        "development",
+        "subjects",
+        "every",
+        "non",
+        "trivial",
+        "decision",
+        "fresh",
+        "context",
+        "adversarial",
+        "review"
+      ],
+      "path": "skills/doubt-driven-development/SKILL.md"
     },
     {
       "id": "dx-optimizer",
@@ -3415,6 +3672,32 @@
       "path": "skills/frontend-security-coder/SKILL.md"
     },
     {
+      "id": "frontend-ui-engineering",
+      "name": "frontend-ui-engineering",
+      "description": "Builds production-quality, accessible, responsive user-facing UIs. Use when building or modifying interfaces and pages, creating components, implementing layouts, meeting WCAG accessibility requirements, managing state, or when the output needs to look and feel production-quality rather than AI-generated.",
+      "category": "data-ai",
+      "tags": [
+        "frontend",
+        "ui",
+        "engineering"
+      ],
+      "triggers": [
+        "frontend",
+        "ui",
+        "engineering",
+        "quality",
+        "accessible",
+        "responsive",
+        "user",
+        "facing",
+        "uis",
+        "building",
+        "modifying",
+        "interfaces"
+      ],
+      "path": "skills/frontend-ui-engineering/SKILL.md"
+    },
+    {
       "id": "full-stack-orchestration-full-stack-feature",
       "name": "full-stack-orchestration-full-stack-feature",
       "description": "Use when working with full stack orchestration full stack feature",
@@ -3559,6 +3842,32 @@
         "efficient"
       ],
       "path": "skills/git-pr-workflows-pr-enhance/SKILL.md"
+    },
+    {
+      "id": "git-workflow-and-versioning",
+      "name": "git-workflow-and-versioning",
+      "description": "Structures git workflow practices. Use when making any code change. Use when committing, branching, resolving conflicts, or when you need to organize work across multiple parallel streams. Use when cutting a release, choosing a semantic version bump, tagging, or writing a changelog.",
+      "category": "workflow",
+      "tags": [
+        "git",
+        "and",
+        "versioning"
+      ],
+      "triggers": [
+        "git",
+        "and",
+        "versioning",
+        "structures",
+        "making",
+        "any",
+        "code",
+        "change",
+        "committing",
+        "branching",
+        "resolving",
+        "conflicts"
+      ],
+      "path": "skills/git-workflow-and-versioning/SKILL.md"
     },
     {
       "id": "github-actions-templates",
@@ -4003,6 +4312,31 @@
       "path": "skills/hybrid-search-implementation/SKILL.md"
     },
     {
+      "id": "idea-refine",
+      "name": "idea-refine",
+      "description": "Refines raw ideas into sharp, actionable concepts through structured divergent and convergent thinking. Use when an idea is still vague, when you need to stress-test assumptions before committing to a plan, or when you want to expand options before converging on one. Triggers on \"ideate\", \"refine this idea\", or \"stress-test my plan\".",
+      "category": "testing",
+      "tags": [
+        "idea",
+        "refine"
+      ],
+      "triggers": [
+        "idea",
+        "refine",
+        "refines",
+        "raw",
+        "ideas",
+        "sharp",
+        "actionable",
+        "concepts",
+        "through",
+        "structured",
+        "divergent",
+        "convergent"
+      ],
+      "path": "skills/idea-refine/SKILL.md"
+    },
+    {
       "id": "incident-responder",
       "name": "incident-responder",
       "description": "Expert SRE incident responder specializing in rapid problem resolution, modern observability, and comprehensive incident management. Masters incident command, blameless post-mortems, error budget management, and system reliability patterns. Handles critical outages, communication strategies, and continuous improvement. Use IMMEDIATELY for production incidents or SRE practices.",
@@ -4093,6 +4427,55 @@
         "building"
       ],
       "path": "skills/incident-runbook-templates/SKILL.md"
+    },
+    {
+      "id": "incremental-implementation",
+      "name": "incremental-implementation",
+      "description": "Delivers changes incrementally. Use when implementing any feature or change that touches more than one file. Use when you're about to write a large amount of code at once, or when a task feels too big to land in one step.",
+      "category": "general",
+      "tags": [
+        "incremental"
+      ],
+      "triggers": [
+        "incremental",
+        "delivers",
+        "changes",
+        "incrementally",
+        "implementing",
+        "any",
+        "feature",
+        "change",
+        "touches",
+        "than",
+        "one",
+        "file"
+      ],
+      "path": "skills/incremental-implementation/SKILL.md"
+    },
+    {
+      "id": "interview-me",
+      "name": "interview-me",
+      "description": "Extracts what the user actually wants instead of what they think they should want. Achieves this through one-question-at-a-time interview until ~95% confidence about the underlying intent. Use when an ask is underspecified (\"build me X\" without \"for whom\" or \"why now\"), when the user explicitly invokes (\"interview me\", \"grill me\", \"are we sure?\", \"stress-test my thinking\"), or when you catch yourself silently filling in ambiguous requirements before any plan, spec, or code exists.",
+      "category": "testing",
+      "tags": [
+        "interview",
+        "me"
+      ],
+      "triggers": [
+        "interview",
+        "me",
+        "extracts",
+        "what",
+        "user",
+        "actually",
+        "wants",
+        "instead",
+        "think",
+        "should",
+        "want",
+        "achieves"
+      ],
+      "path": "skills/interview-me/SKILL.md"
     },
     {
       "id": "ios-developer",
@@ -5290,6 +5673,32 @@
       "path": "skills/nx-workspace-patterns/SKILL.md"
     },
     {
+      "id": "observability-and-instrumentation",
+      "name": "observability-and-instrumentation",
+      "description": "Instruments code so production behavior is visible and diagnosable. Use when adding logging, metrics, tracing, or alerting. Use when shipping any feature that runs in production and you need evidence it works. Use when production issues are reported but you can't tell what happened from the available data.",
+      "category": "infrastructure",
+      "tags": [
+        "observability",
+        "and",
+        "instrumentation"
+      ],
+      "triggers": [
+        "observability",
+        "and",
+        "instrumentation",
+        "instruments",
+        "code",
+        "so",
+        "behavior",
+        "visible",
+        "diagnosable",
+        "adding",
+        "logging",
+        "metrics"
+      ],
+      "path": "skills/observability-and-instrumentation/SKILL.md"
+    },
+    {
       "id": "observability-engineer",
       "name": "observability-engineer",
       "description": "Build production-ready monitoring, logging, and tracing systems. Implements comprehensive observability strategies, SLI/SLO management, and incident response workflows. Use PROACTIVELY for monitoring infrastructure, performance optimization, or production reliability.",
@@ -5545,6 +5954,31 @@
       "path": "skills/performance-engineer/SKILL.md"
     },
     {
+      "id": "performance-optimization",
+      "name": "performance-optimization",
+      "description": "Optimizes application performance across frontend, backend, queries, and databases. Use when performance requirements exist, when you suspect performance regressions, when Core Web Vitals or load times need improvement, when N+1 query patterns need fixing, or when profiling reveals bottlenecks.",
+      "category": "development",
+      "tags": [
+        "performance",
+        "optimization"
+      ],
+      "triggers": [
+        "performance",
+        "optimization",
+        "optimizes",
+        "application",
+        "frontend",
+        "backend",
+        "queries",
+        "databases",
+        "requirements",
+        "exist",
+        "suspect",
+        "regressions"
+      ],
+      "path": "skills/performance-optimization/SKILL.md"
+    },
+    {
       "id": "performance-testing-review-ai-review",
       "name": "performance-testing-review-ai-review",
       "description": "You are an expert AI-powered code review specialist combining automated static analysis, intelligent pattern recognition, and modern DevOps practices. Leverage AI tools (GitHub Copilot, Qodo, GPT-5, C",
@@ -5612,6 +6046,33 @@
         "features"
       ],
       "path": "skills/php-pro/SKILL.md"
+    },
+    {
+      "id": "planning-and-task-breakdown",
+      "name": "planning-and-task-breakdown",
+      "description": "Breaks work into ordered tasks. Use when you have a spec or clear requirements and need to break work into implementable tasks. Use when a task feels too large to start, when you need to estimate scope, or when parallel work is possible.",
+      "category": "general",
+      "tags": [
+        "planning",
+        "and",
+        "task",
+        "breakdown"
+      ],
+      "triggers": [
+        "planning",
+        "and",
+        "task",
+        "breakdown",
+        "breaks",
+        "work",
+        "ordered",
+        "tasks",
+        "spec",
+        "clear",
+        "requirements",
+        "break"
+      ],
+      "path": "skills/planning-and-task-breakdown/SKILL.md"
     },
     {
       "id": "posix-shell-pro",
@@ -6402,6 +6863,32 @@
       "path": "skills/secrets-management/SKILL.md"
     },
     {
+      "id": "security-and-hardening",
+      "name": "security-and-hardening",
+      "description": "Hardens code against vulnerabilities. Use when handling user input, authentication, data storage, or external integrations. Use when building any feature that accepts untrusted data, manages user sessions, or interacts with third-party services.",
+      "category": "security",
+      "tags": [
+        "security",
+        "and",
+        "hardening"
+      ],
+      "triggers": [
+        "security",
+        "and",
+        "hardening",
+        "hardens",
+        "code",
+        "against",
+        "vulnerabilities",
+        "handling",
+        "user",
+        "input",
+        "authentication",
+        "data"
+      ],
+      "path": "skills/security-and-hardening/SKILL.md"
+    },
+    {
       "id": "security-auditor",
       "name": "security-auditor",
       "description": "Expert security auditor specializing in DevSecOps, comprehensive cybersecurity, and compliance frameworks. Masters vulnerability assessment, threat modeling, secure authentication (OAuth2/OIDC), OWASP standards, cloud security, and security automation. Handles DevSecOps integration, compliance (GDPR/HIPAA/SOC2), and incident response. Use PROACTIVELY for security audits, DevSecOps, or compliance implementation.",
@@ -6890,6 +7377,32 @@
       "path": "skills/shellcheck-configuration/SKILL.md"
     },
     {
+      "id": "shipping-and-launch",
+      "name": "shipping-and-launch",
+      "description": "Prepares production launches. Use when preparing to deploy to production. Use when you need a pre-launch checklist, when setting up monitoring, when planning a staged rollout, or when you need a rollback strategy.",
+      "category": "infrastructure",
+      "tags": [
+        "shipping",
+        "and",
+        "launch"
+      ],
+      "triggers": [
+        "shipping",
+        "and",
+        "launch",
+        "prepares",
+        "launches",
+        "preparing",
+        "deploy",
+        "pre",
+        "checklist",
+        "setting",
+        "up",
+        "monitoring"
+      ],
+      "path": "skills/shipping-and-launch/SKILL.md"
+    },
+    {
       "id": "similarity-search-patterns",
       "name": "similarity-search-patterns",
       "description": "Implement efficient similarity search with vector databases. Use when building semantic search, implementing nearest neighbor queries, or optimizing retrieval performance.",
@@ -6964,6 +7477,31 @@
       "path": "skills/solidity-security/SKILL.md"
     },
     {
+      "id": "source-driven-development",
+      "name": "source-driven-development",
+      "description": "Grounds every implementation decision in official documentation. Use when you want authoritative, source-cited code free from outdated patterns. Use when building with any framework or library where correctness matters.",
+      "category": "architecture",
+      "tags": [
+        "source",
+        "driven"
+      ],
+      "triggers": [
+        "source",
+        "driven",
+        "development",
+        "grounds",
+        "every",
+        "decision",
+        "official",
+        "documentation",
+        "want",
+        "authoritative",
+        "cited",
+        "code"
+      ],
+      "path": "skills/source-driven-development/SKILL.md"
+    },
+    {
       "id": "spark-optimization",
       "name": "spark-optimization",
       "description": "Optimize Apache Spark jobs with partitioning, caching, shuffle optimization, and memory tuning. Use when improving Spark performance, debugging slow jobs, or scaling data processing pipelines.",
@@ -6987,6 +7525,31 @@
         "performance"
       ],
       "path": "skills/spark-optimization/SKILL.md"
+    },
+    {
+      "id": "spec-driven-development",
+      "name": "spec-driven-development",
+      "description": "Creates specs before coding. Use when starting a new project, feature, or significant change and no specification exists yet. Use when requirements are unclear, ambiguous, or only exist as a vague idea.",
+      "category": "general",
+      "tags": [
+        "spec",
+        "driven"
+      ],
+      "triggers": [
+        "spec",
+        "driven",
+        "development",
+        "creates",
+        "specs",
+        "before",
+        "coding",
+        "starting",
+        "new",
+        "feature",
+        "significant",
+        "change"
+      ],
+      "path": "skills/spec-driven-development/SKILL.md"
     },
     {
       "id": "sql-optimization-patterns",
@@ -7666,6 +8229,30 @@
       "path": "skills/test-automator/SKILL.md"
     },
     {
+      "id": "test-driven-development",
+      "name": "test-driven-development",
+      "description": "Drives development with tests. Use when implementing any logic, fixing any bug, or changing any behavior. Use when you need to prove that code works, when a bug report arrives, or when you're about to modify existing functionality.",
+      "category": "testing",
+      "tags": [
+        "driven"
+      ],
+      "triggers": [
+        "driven",
+        "test",
+        "development",
+        "drives",
+        "tests",
+        "implementing",
+        "any",
+        "logic",
+        "fixing",
+        "bug",
+        "changing",
+        "behavior"
+      ],
+      "path": "skills/test-driven-development/SKILL.md"
+    },
+    {
       "id": "threat-mitigation-mapping",
       "name": "threat-mitigation-mapping",
       "description": "Map identified threats to appropriate security controls and mitigations. Use when prioritizing security investments, creating remediation plans, or validating control effectiveness.",
@@ -7987,6 +8574,32 @@
         "building"
       ],
       "path": "skills/unity-ecs-patterns/SKILL.md"
+    },
+    {
+      "id": "using-agent-skills",
+      "name": "using-agent-skills",
+      "description": "Discovers and invokes agent skills. Use when starting a session or when you need to discover which skill applies to the current task. This is the meta-skill that governs how all other skills are discovered and invoked.",
+      "category": "general",
+      "tags": [
+        "using",
+        "agent",
+        "skills"
+      ],
+      "triggers": [
+        "using",
+        "agent",
+        "skills",
+        "discovers",
+        "invokes",
+        "starting",
+        "session",
+        "discover",
+        "which",
+        "skill",
+        "applies",
+        "current"
+      ],
+      "path": "skills/using-agent-skills/SKILL.md"
     },
     {
       "id": "uv-package-manager",
