@@ -10,6 +10,10 @@ const {
 const ROOT = path.resolve(__dirname, '..');
 const SKILLS_DIR = path.join(ROOT, 'skills');
 
+function toPosixPath(filePath) {
+  return filePath.split(path.sep).join('/');
+}
+
 const STOPWORDS = new Set([
   'a', 'an', 'and', 'are', 'as', 'at', 'be', 'but', 'by', 'for', 'from', 'has', 'have', 'in', 'into',
   'is', 'it', 'its', 'of', 'on', 'or', 'our', 'out', 'over', 'that', 'the', 'their', 'they', 'this',
@@ -313,7 +317,7 @@ function computeArtifacts() {
       category,
       tags,
       triggers,
-      path: path.relative(ROOT, skill.path),
+      path: toPosixPath(path.relative(ROOT, skill.path)),
     });
   }
 

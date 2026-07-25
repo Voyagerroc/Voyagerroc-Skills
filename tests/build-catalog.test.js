@@ -18,3 +18,10 @@ test('accessibility/compliance skill is no longer mis-categorized as security', 
   // Pinned to the correct category: previously mis-tagged 'security' via the 'compliance' keyword.
   assert.strictEqual(skill.category, 'general');
 });
+
+test('catalog skill paths always use forward slashes', () => {
+  const a = computeArtifacts();
+  for (const skill of a.catalog.skills) {
+    assert.ok(!skill.path.includes('\\'), `expected POSIX path, got: ${skill.path}`);
+  }
+});
