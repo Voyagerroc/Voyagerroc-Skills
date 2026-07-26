@@ -7,6 +7,25 @@ description: Detect and cluster faces in photos using DeepFace (RetinaFace + Fac
 
 This skill analyzes photos to detect faces, extract face embeddings using DeepFace, and clusters identical faces across multiple images using HDBSCAN. It has a built-in memory system that remembers known faces across multiple runs.
 
+## Use this skill when
+
+- The user asks to detect, count, cluster, or recognize faces in one or more photos.
+- The user wants to identify the same person across different images.
+- The user wants persistent naming of known faces between runs.
+
+## Do not use
+
+- The user is not working with image files or does not need facial analysis.
+- The user asks for real-time video stream tracking or surveillance workflows.
+- The request requires legal, policy, or biometric compliance guidance beyond technical image analysis.
+
+## Instructions
+
+- Install dependencies listed in `requirements.txt` before running any script.
+- Run `python scripts/analyze_faces.py /path/to/image_or_directory` to produce JSON output.
+- Use `--save-crops` when face thumbnails are needed for visual identification and follow-up naming.
+- If the user identifies a generic persona label, run `python scripts/rename_persona.py "<old_name>" "<new_name>"` to persist the name.
+
 ## Prerequisites
 
 Install Python dependencies:

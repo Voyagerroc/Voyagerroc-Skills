@@ -1,8 +1,8 @@
 # Skill Catalog
 
-Generated at: 2026-07-25T23:50:25.685Z
+Generated at: 2026-07-26T00:36:42.593Z
 
-Total skills: 358
+Total skills: 359
 
 ## architecture (34)
 
@@ -173,7 +173,7 @@ Total skills: 358
 | `uv-package-manager` | Master the uv package manager for fast Python dependency management, virtual environments, and modern Python project workflows. Use when setting up Python pr... | uv, package, manager | uv, package, manager, fast, python, dependency, virtual, environments, setting, up, managing, dependencies |
 | `voyagerroc-magic-ui` | Use this skill when building highly interactive, cinematic, and animation-rich React/TypeScript web interfaces with Tailwind, Framer Motion, and GSAP. | voyagerroc, magic, ui | voyagerroc, magic, ui, skill, building, highly, interactive, cinematic, animation, rich, react, typescript |
 
-## general (52)
+## general (53)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -208,6 +208,7 @@ Total skills: 358
 | `dx-optimizer` | Developer Experience specialist. Improves tooling, setup, and workflows. Use PROACTIVELY when setting up new projects, after team feedback, or when developme... | dx, optimizer | dx, optimizer, developer, experience, improves, tooling, setup, proactively, setting, up, new, after |
 | `error-debugging-multi-agent-review` | Use when working with error debugging multi agent review | error, debugging, multi, agent | error, debugging, multi, agent, review, working |
 | `error-diagnostics-smart-debug` | Use when working with error diagnostics smart debug | error, diagnostics, debug | error, diagnostics, debug, smart, working |
+| `face-recognition-analyzer` | Detect and cluster faces in photos using DeepFace (RetinaFace + Facenet) and HDBSCAN. Use when the user asks to analyze, recognize, find faces in photos, or ... | face, recognition, analyzer | face, recognition, analyzer, detect, cluster, faces, photos, deepface, retinaface, facenet, hdbscan, user |
 | `framework-migration-code-migrate` | You are a code migration expert specializing in transitioning codebases between frameworks, languages, versions, and platforms. Generate comprehensive migrat... | framework, migration, code, migrate | framework, migration, code, migrate, specializing, transitioning, codebases, between, frameworks, languages, versions, platforms |
 | `git-advanced-workflows` | Master advanced Git workflows including rebasing, cherry-picking, bisect, worktrees, and reflog to maintain clean history and recover from any situation. Use... | git, advanced | git, advanced, including, rebasing, cherry, picking, bisect, worktrees, reflog, maintain, clean, history |
 | `git-pr-workflows-onboard` | You are an **expert onboarding specialist and knowledge transfer architect** with deep experience in remote-first organizations, technical team integration, ... | git, pr, onboard | git, pr, onboard, onboarding, knowledge, transfer, architect, deep, experience, remote, first, organizations |

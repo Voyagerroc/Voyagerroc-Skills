@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-25T23:50:25.685Z",
-  "total": 358,
+  "generatedAt": "2026-07-26T00:36:42.593Z",
+  "total": 359,
   "skills": [
     {
       "id": "accessibility-compliance-accessibility-audit",
@@ -3388,6 +3388,32 @@
         "persistence"
       ],
       "path": "skills/event-store-design/SKILL.md"
+    },
+    {
+      "id": "face-recognition-analyzer",
+      "name": "face-recognition-analyzer",
+      "description": "Detect and cluster faces in photos using DeepFace (RetinaFace + Facenet) and HDBSCAN. Use when the user asks to analyze, recognize, find faces in photos, or name specific people.",
+      "category": "general",
+      "tags": [
+        "face",
+        "recognition",
+        "analyzer"
+      ],
+      "triggers": [
+        "face",
+        "recognition",
+        "analyzer",
+        "detect",
+        "cluster",
+        "faces",
+        "photos",
+        "deepface",
+        "retinaface",
+        "facenet",
+        "hdbscan",
+        "user"
+      ],
+      "path": "skills/face-recognition-analyzer/SKILL.md"
     },
     {
       "id": "fastapi-pro",
