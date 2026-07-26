@@ -1,0 +1,5 @@
+models/
+crops/
+state/
+__pycache__/
+*.pyc
