@@ -27,8 +27,14 @@ function stripGeneratedAt(obj) {
   return JSON.stringify(clone);
 }
 
+// Windows checkouts can carry CRLF while freshly computed artifacts always use
+// LF, so normalize before comparing or every line reads as drift.
+function normalizeNewlines(text) {
+  return text.replace(/\r\n/g, '\n');
+}
+
 function stripMarkdownTimestamp(md) {
-  return md.replace(/^Generated at: .*$/m, 'Generated at: <timestamp>');
+  return normalizeNewlines(md).replace(/^Generated at: .*$/m, 'Generated at: <timestamp>');
 }
 
 // Pure comparison: returns the list of artifact names that differ between the
