@@ -86,10 +86,20 @@ ANTIGRAVITY automatically activates a skill when your request matches its descri
 
 ---
 
-You can install skills in **two scopes**:
+You can install skills in **two scopes**, for **two platforms** (the SKILL.md format is shared):
 
--   **Workspace scope** (project-specific): `<workspace-root>/.agent/skills/`
--   **Global scope** (available in all projects): `~/.gemini/antigravity/skills/`
+| Platform | Workspace scope | Global scope |
+| --- | --- | --- |
+| **Antigravity** (default) | `<workspace-root>/.agent/skills/` | `~/.gemini/antigravity/skills/` |
+| **Claude Code** (`--claude`) | `<workspace-root>/.claude/skills/` | `~/.claude/skills/` |
+
+```bash
+# Claude Code examples
+npx @voyagerroc/antigravity-skills install python-pro --claude
+npx @voyagerroc/antigravity-skills install --bundle core-dev --claude --global
+npx @voyagerroc/antigravity-skills installed --claude
+npx @voyagerroc/antigravity-skills update --claude
+```
 
 ### Using `npx` (Recommended)
 
@@ -103,10 +113,21 @@ npx @voyagerroc/antigravity-skills search <query>
 npx @voyagerroc/antigravity-skills search kubernetes
 ```
 
-**2. List available skills:**
+Search also matches aliases, supports `--json` output, and suggests close matches ("Did you mean ...?") when nothing is found.
+
+**2. List / inspect available skills:**
 
 ```bash
 npx @voyagerroc/antigravity-skills list
+npx @voyagerroc/antigravity-skills list --category security
+npx @voyagerroc/antigravity-skills list --tag kubernetes --json
+
+# Show details (description, tags, triggers, files, preview) without installing
+npx @voyagerroc/antigravity-skills info python-pro
+
+# Explore curated bundles
+npx @voyagerroc/antigravity-skills bundles
+npx @voyagerroc/antigravity-skills bundles k8s-core
 ```
 
 **3. Install a specific skill to your current project:**
@@ -158,6 +179,15 @@ npx @voyagerroc/antigravity-skills update
 
 # Update global skills
 npx @voyagerroc/antigravity-skills update --global
+```
+
+`update` compares content hashes and only copies skills that actually changed. `installed` flags skills that are outdated or no longer in the vault. Install state is tracked in a `.ag-skills.json` manifest inside the target directory.
+
+**7b. Uninstall skills:**
+
+```bash
+npx @voyagerroc/antigravity-skills uninstall <skill-name>
+npx @voyagerroc/antigravity-skills uninstall --all --global
 ```
 
 **8. Doctor / stats:**
