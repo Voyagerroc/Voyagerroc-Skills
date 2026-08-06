@@ -1,7 +1,7 @@
 {
   "name": "@voyagerroc/antigravity-skills",
   "version": "1.0.0",
-  "description": "Güçlendirilmiş Antigravity Skill Vault CLI",
+  "description": "Güçlendirilmiş Antigravity & Claude Code Skill Vault CLI",
   "bin": {
     "ag-skills": "./bin/cli.js"
   },
@@ -34,6 +34,7 @@
     "ai",
     "agent",
     "skills",
+    "claude-code",
     "voyagerroc"
   ],
   "author": "Voyagerroc",
